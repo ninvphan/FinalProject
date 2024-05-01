@@ -426,8 +426,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: University of Miami
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -748,8 +748,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Welcome to the University of Miami's Campus!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -906,7 +906,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1041724974}
+      - m_Target: {fileID: 1041724975}
         m_TargetAssemblyTypeName: InstructionButtonController, Assembly-CSharp
         m_MethodName: hide
         m_Mode: 1
@@ -918,7 +918,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 703865739}
+      - m_Target: {fileID: 703865743}
         m_TargetAssemblyTypeName: InstructionButtonController, Assembly-CSharp
         m_MethodName: appear
         m_Mode: 1
@@ -1083,7 +1083,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1000600226}
+      - m_Target: {fileID: 1000600227}
         m_TargetAssemblyTypeName: IntroButtonController, Assembly-CSharp
         m_MethodName: hide
         m_Mode: 1
@@ -1095,7 +1095,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1041724974}
+      - m_Target: {fileID: 1041724975}
         m_TargetAssemblyTypeName: InstructionButtonController, Assembly-CSharp
         m_MethodName: appear
         m_Mode: 1
@@ -1343,6 +1343,7 @@ GameObject:
   - component: {fileID: 703865741}
   - component: {fileID: 703865740}
   - component: {fileID: 703865739}
+  - component: {fileID: 703865743}
   m_Layer: 5
   m_Name: InstructionsButton (Legacy)
   m_TagString: Untagged
@@ -1382,7 +1383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ad68a3401f94283a1d216c6eb5e84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 703865737}
 --- !u!114 &703865740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1427,7 +1427,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1041724974}
+      - m_Target: {fileID: 1041724975}
         m_TargetAssemblyTypeName: InstructionButtonController, Assembly-CSharp
         m_MethodName: appear
         m_Mode: 1
@@ -1439,7 +1439,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 703865739}
+      - m_Target: {fileID: 703865743}
         m_TargetAssemblyTypeName: InstructionButtonController, Assembly-CSharp
         m_MethodName: hide
         m_Mode: 1
@@ -1489,6 +1489,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703865737}
   m_CullTransparentMesh: 1
+--- !u!114 &703865743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703865737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c3ca5bc6ef44e86ae3604a57c45854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 703865737}
 --- !u!43 &711516446
 Mesh:
   m_ObjectHideFlags: 0
@@ -1908,8 +1921,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sebastian Scavenger Hunt
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2039,6 +2052,7 @@ GameObject:
   - component: {fileID: 1000600225}
   - component: {fileID: 1000600224}
   - component: {fileID: 1000600226}
+  - component: {fileID: 1000600227}
   m_Layer: 5
   m_Name: IntroductionPanel
   m_TagString: Untagged
@@ -2118,6 +2132,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e1ed6068037947459caff6e4c950b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1000600227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000600221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448f50ac3f8754e35886e41bd8efd2a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   panel: {fileID: 1000600221}
 --- !u!1 &1041724969
 GameObject:
@@ -2131,6 +2157,7 @@ GameObject:
   - component: {fileID: 1041724973}
   - component: {fileID: 1041724972}
   - component: {fileID: 1041724974}
+  - component: {fileID: 1041724975}
   m_Layer: 5
   m_Name: InstructionsPanel
   m_TagString: Untagged
@@ -2208,6 +2235,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64ad68a3401f94283a1d216c6eb5e84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1041724975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041724969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c3ca5bc6ef44e86ae3604a57c45854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1041724969}
@@ -2378,14 +2417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a68613ecea84de2bb75decd141fa95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virtualButtons:
-  - {fileID: 1691043900}
-  - {fileID: 1461650963}
-  - {fileID: 1960973068}
-  sections:
-  - {fileID: 967641197}
-  - {fileID: 1104776121}
-  - {fileID: 397074639}
 --- !u!4 &1159905078
 Transform:
   m_ObjectHideFlags: 0
@@ -2477,7 +2508,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 077de5e1125a0466ebf0fb2a00b64826, type: 2}
+  - {fileID: 2100000, guid: ea3b7b54817714ac8b3bebb66b9ce193, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2610,8 +2641,8 @@ MonoBehaviour:
     placing him on top of the designated areas until you find them all, then circle
     back to Centennial Village where his RA is waiting!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
