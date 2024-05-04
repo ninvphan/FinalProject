@@ -8,11 +8,15 @@ public class ScavengerButtonController : MonoBehaviour
 {
     public GameObject[] virtualButtons;
     public GameObject[] sections;
+    public GameObject errorMessage;
+
+    private int counterStep = 1;
     // Start is called before the first frame update
     void Start()
     {
         foreach(var section in sections) {
             section.SetActive(false);
+            errorMessage.SetActive(false);
         }
     }
 
@@ -38,13 +42,15 @@ public class ScavengerButtonController : MonoBehaviour
                 } 
             }
             else if (numPressed == 1) {
-                for (int i = 0; i < sections.Length; i++) {
-                    if (i == pressedButtonIndex) {
-                        sections[i].SetActive(true);
-                    }
-                    else {
-                        sections[i].SetActive(false);
-                    }
+                if (pressedButtonIndex == (counterStep - 1)) {
+                    sections[pressedButtonIndex].SetActive(true);
+                }
+                else if (pressedButtonIndex == (counterStep)){
+                    sections[pressedButtonIndex].SetActive(true);
+                    counterStep++;
+                }
+                else {
+                    errorMessage.SetActive(true);
                 }
             }
             
@@ -52,6 +58,7 @@ public class ScavengerButtonController : MonoBehaviour
         else {
             foreach (var section in sections) {
                 section.SetActive(false);
+                errorMessage.SetActive(false);
             }
         }
     }
