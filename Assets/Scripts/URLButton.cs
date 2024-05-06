@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class URLButton : MonoBehaviour
 {
-    public string url;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,7 @@ public class URLButton : MonoBehaviour
     {
         
     }
-    public void OpenURL() {
+    public void OpenURL(string url) {
         Application.OpenURL(url);
     }
 }
