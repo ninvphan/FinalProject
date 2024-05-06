@@ -14384,7 +14384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448f50ac3f8754e35886e41bd8efd2a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 0}
+  panel: {fileID: 1093952099}
 --- !u!1 &1099506550
 GameObject:
   m_ObjectHideFlags: 0
@@ -28613,7 +28613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c3ca5bc6ef44e86ae3604a57c45854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 0}
+  panel: {fileID: 2082097477}
 --- !u!21 &2098686264
 Material:
   serializedVersion: 8
