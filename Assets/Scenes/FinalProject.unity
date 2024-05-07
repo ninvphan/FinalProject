@@ -1865,7 +1865,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 35983c2c287e1425d8d0e31021d3035d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.003
+      value: -0.068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35983c2c287e1425d8d0e31021d3035d,
         type: 3}
@@ -1875,7 +1875,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 35983c2c287e1425d8d0e31021d3035d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.393
+      value: -0.356
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 35983c2c287e1425d8d0e31021d3035d,
         type: 3}
@@ -2126,7 +2126,7 @@ GameObject:
   - component: {fileID: 129480119}
   - component: {fileID: 129480120}
   m_Layer: 0
-  m_Name: WatscoClueSection
+  m_Name: MarketClueSection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6787,7 +6787,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 502720129}
+    m_TransformParent: {fileID: 962352066}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
@@ -6807,37 +6807,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: -0.108
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0491
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.3112
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.5086004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.5086004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.49124902
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.49124902
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49bdd082eb13a4ca9a226f1bf1b05d1a,
         type: 3}
@@ -7438,7 +7438,7 @@ GameObject:
   - component: {fileID: 423018756}
   - component: {fileID: 423018755}
   m_Layer: 5
-  m_Name: WatscoIntroText
+  m_Name: MarketIntroText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7483,11 +7483,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sebastian found his friend in the Watsco Center, home to both women\u2019s
-    and men\u2019s basketball. Tickets are free for students, watch a home game vs
-    FSU or UNC and you will not be disappointed. UMiami basketball has seen a ton
-    of recent success, even bringing both teams to the Elite Eight two years ago!!
-    Sebastian and his friends are rooting for repeat success, GO CANES!"
+  m_text: 'Sebastian found his friend at the farmers market! It comes to campus every
+    Wednesday until 3pm, for local vendors to sell their food and other products
+    to students. The food here is incredible and it is a lively social environment.
+    Make your way over on a Wednesday to check out the festivities! '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -8973,60 +8972,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494930651}
   m_CullTransparentMesh: 1
---- !u!1 &502720128
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 502720129}
-  - component: {fileID: 502720130}
-  m_Layer: 0
-  m_Name: AnimatedSebastian5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &502720129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 502720128}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.69473106, z: -0, w: 0.71926963}
-  m_LocalPosition: {x: 0.074, y: 0.0491, z: -0.412}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 377145148}
-  m_Father: {fileID: 962352066}
-  m_LocalEulerAnglesHint: {x: 0, y: 88.012, z: 0}
---- !u!95 &502720130
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 502720128}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bc25d0e3a9b0443bea4d7e0f7482acf1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &511950024
 GameObject:
   m_ObjectHideFlags: 0
@@ -9847,7 +9792,7 @@ GameObject:
   - component: {fileID: 588696983}
   - component: {fileID: 588696982}
   m_Layer: 5
-  m_Name: WatscoIntroCanvas
+  m_Name: MarketIntroCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13497,6 +13442,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 804681078}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &813967679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813967680}
+  - component: {fileID: 813967681}
+  m_Layer: 0
+  m_Name: AnimatedSebastian6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813967680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813967679}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.8359455, z: -0, w: 0.5488125}
+  m_LocalPosition: {x: 0.057, y: 0.0559, z: -0.312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1115824503}
+  m_Father: {fileID: 962352066}
+  m_LocalEulerAnglesHint: {x: 0, y: -113.429, z: 0}
+--- !u!95 &813967681
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813967679}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d4c30d76f12bf49efae5aa9c0e5fff05, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &817411574
 GameObject:
   m_ObjectHideFlags: 0
@@ -16086,7 +16085,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.37
+      value: -0.055
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
@@ -16096,7 +16095,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.362
+      value: -0.267
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
@@ -16183,6 +16182,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 813967680}
+  - {fileID: 377145148}
   - {fileID: 115926624}
   - {fileID: 1181463223}
   - {fileID: 958344198}
@@ -16190,7 +16191,6 @@ Transform:
   - {fileID: 1120247759}
   - {fileID: 1913732706}
   - {fileID: 129480119}
-  - {fileID: 502720129}
   m_Father: {fileID: 2050169778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &967641197
@@ -18267,6 +18267,100 @@ Transform:
   - {fileID: 2082097478}
   m_Father: {fileID: 756048318}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1115824502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 813967680}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7eab2c8e7306c41d690e9d65ded8ee70, type: 2}
+    - target: {fileID: 919132149155446097, guid: c168120ff071e499a9f36b6b0b008af9,
+        type: 3}
+      propertyPath: m_Name
+      value: Sebastian6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c168120ff071e499a9f36b6b0b008af9, type: 3}
+--- !u!4 &1115824503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c168120ff071e499a9f36b6b0b008af9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1115824502}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1120247758
 GameObject:
   m_ObjectHideFlags: 0
@@ -18277,7 +18371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1120247759}
   m_Layer: 0
-  m_Name: WatscoPanels
+  m_Name: MarketPanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19135,7 +19229,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.034
+      value: -0.006
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
@@ -19145,7 +19239,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.329
+      value: -0.342
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
@@ -19216,7 +19310,7 @@ GameObject:
   - component: {fileID: 1185708325}
   - component: {fileID: 1185708324}
   m_Layer: 5
-  m_Name: WatscoClueCanvas
+  m_Name: MarketClueCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25084,7 +25178,7 @@ GameObject:
   - component: {fileID: 1470796485}
   - component: {fileID: 1470796484}
   m_Layer: 0
-  m_Name: WatscoVideo
+  m_Name: MarketVideo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26516,7 +26610,7 @@ GameObject:
   - component: {fileID: 1565101634}
   - component: {fileID: 1565101633}
   m_Layer: 5
-  m_Name: WatscoClueText
+  m_Name: MarketClueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26561,9 +26655,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Watching Jimmy Butler play effortless basketball sure was fun, if only
-    the canes were that good!! Sebastian gets a text from a buddy in the art school\u2026
-    Did you know that we have an art Museum?? Go check out its galleries\u2026"
+  m_text: "Uh oh\u2026 Sebastian only has $10 in his wallet and the cheapest meal
+    is $11!! If only there were more options\u2026 University of Miami has a nearby
+    food court with plenty of cheaper options. Go check out what they have to offer..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -31615,7 +31709,7 @@ GameObject:
   - component: {fileID: 1913732706}
   - component: {fileID: 1913732707}
   m_Layer: 0
-  m_Name: WatscoIntroSection
+  m_Name: MarketIntroSection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32067,17 +32161,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0035
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0195
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6cd641530a027499c9e999a6378ddc86,
         type: 3}
@@ -33177,7 +33271,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3bb51f656185440b4894ed89eb751d82,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.299
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3bb51f656185440b4894ed89eb751d82,
         type: 3}
@@ -33187,7 +33281,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3bb51f656185440b4894ed89eb751d82,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.316
+      value: -0.266
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3bb51f656185440b4894ed89eb751d82,
         type: 3}
@@ -33836,7 +33930,7 @@ GameObject:
   - component: {fileID: 2025552416}
   - component: {fileID: 2025552415}
   m_Layer: 0
-  m_Name: WatscoPhoto
+  m_Name: MarketPhoto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33851,8 +33945,8 @@ Transform:
   m_GameObject: {fileID: 2025552413}
   serializedVersion: 2
   m_LocalRotation: {x: 0.005943194, y: 0.70724, z: -0.70694333, w: 0.0027065503}
-  m_LocalPosition: {x: 0.16753, y: 0.28754, z: -0.328}
-  m_LocalScale: {x: 0.027290063, y: 1, z: 0.01549312}
+  m_LocalPosition: {x: 0.167, y: 0.2847, z: -0.328}
+  m_LocalScale: {x: 0.031136159, y: 1, z: 0.014503763}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1120247759}
@@ -33899,7 +33993,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bab77fdae382f4868b4c50e9eb525891, type: 2}
+  - {fileID: 2100000, guid: 6f16a659d43674405b25fd8bd76eb078, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
