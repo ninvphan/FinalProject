@@ -655,12 +655,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0393
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0242
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
@@ -9317,7 +9317,7 @@ Transform:
   m_GameObject: {fileID: 541000482}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5591095, y: 0.4328933, z: 0.4328933, w: 0.5591095}
-  m_LocalPosition: {x: 0.118, y: 0.05, z: 0.238}
+  m_LocalPosition: {x: 0.1045, y: 0.05, z: 0.2952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11933,7 +11933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.09505162, g: 0.2264151, b: 0.10953312, a: 0.392}
+  m_Color: {r: 0.09505162, g: 0.2264151, b: 0.10953312, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12404,7 +12404,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2050169778}
+    m_TransformParent: {fileID: 967641198}
     m_Modifications:
     - target: {fileID: 122562, guid: 13f6097cdfae79d44acca4175298212a, type: 3}
       propertyPath: m_Name
@@ -12424,7 +12424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 491618, guid: 13f6097cdfae79d44acca4175298212a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0339
+      value: -0.033900023
       objectReference: {fileID: 0}
     - target: {fileID: 491618, guid: 13f6097cdfae79d44acca4175298212a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13429,7 +13429,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.087
+      value: 0.0643
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
@@ -13439,7 +13439,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.326
+      value: 0.2136
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60e759eb653bb483dac9f04adb3dd062,
         type: 3}
@@ -15498,12 +15498,6 @@ MonoBehaviour:
     e33: 1
   mPrevParent: {fileID: 2050169774}
   mPreviousVirtualSceneScaleFactor: 1
---- !u!4 &928456110 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43,
-    type: 3}
-  m_PrefabInstance: {fileID: 1388854271}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &937629294
 GameObject:
   m_ObjectHideFlags: 0
@@ -16230,6 +16224,7 @@ Transform:
   m_Children:
   - {fileID: 1192064831}
   - {fileID: 1842045666}
+  - {fileID: 773389832}
   m_Father: {fileID: 2050169778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1000600221
@@ -23360,63 +23355,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1376749209}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1388854271
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2050169778}
-    m_Modifications:
-    - target: {fileID: 100006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_Name
-      value: WindZones
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1041
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.98213977
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.18815275
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a5180b78e14595545b205f7fe0e69f43, type: 3}
 --- !u!1001 &1399783956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25438,8 +25376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sebastian didn't find his friend here! He must really be lost. \n\nHelp
-    him keep looking!!"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -34329,8 +34266,6 @@ Transform:
   - {fileID: 1960973069}
   - {fileID: 643247886}
   - {fileID: 922345271}
-  - {fileID: 928456110}
-  - {fileID: 773389832}
   - {fileID: 967641198}
   - {fileID: 397074640}
   - {fileID: 1313845362}
